@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&family=Varela+Round&display=swap');
+
+*{
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+
+
+section.banniere{
+    background: url('../Images/background-img.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 1em;
+    flex: 1;
+}
+
+section.banniere2{
+    background-size: cover;
+    height: 80vh;
+    padding: 1em;
+    flex: 1;
+}
+
+/*Entete*/
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+header.header img{
+    width: 5em;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.big {
+    color: rgb(255, 255, 255);
+    font-size: 3.5em;
+    padding: 1em 1em;
+    font-family: 'Teko', sans-serif;
+    }
+
+.small{
+    color: white;
+    padding: 2em;
+    position: absolute;
+    bottom: 5em;
+}
+
+
+/*Menu bar de nav*/
+
+menu.bar{
+    display:flex;
+    list-style: none;
+    width: 35em;
+    justify-content: space-around;
+}
+
+menu.bar li a:hover{
+    color: rgb(250, 250, 0);
+}
+
+menu.bar li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.title{
+    font-size: 2em;
+    padding-left: 2em;
+}
+
+.title::before{
+    content: "";
+    position: absolute;
+    background-color: yellow;
+    bottom: 25.5em;
+    height:0.1em;
+    width: 3em;
+}
+
+
+
+.best-shoes{
+    min-height: 25em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em;
+}
+
+.sans-grille{
+    min-width: 25em;
+    height: 25em;
+    flex:1;
+}
+.shoe-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.shoe1{
+    background-image: url(../Images/reebok-classic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(245, 245, 245);
+}
+
+.shoe2{
+    background-image: url(../Images/puma-rsx3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.shoe3{
+    background-image: url(../Images/vans-oldshool.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shoe4{
+    background-image: url(../Images/puma-suede.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shoe5{
+    background-image: url(../Images/nike-wearallday.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(247, 247, 247);
+}
+
+.shoe6{
+    background-image: url(../Images/Continental-80.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shoe7{
+    background-image: url(../Images/reebok-rapide.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shoe8{
+    background-image: url(../Images/new-balance-531.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shoe9{
+    background-image: url(../Images/Waterspoon.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shoe10{
+    background-image: url(../Images/nike-airmax-2090.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(247, 247, 247);
+}
+
+.shoe11{
+    background-image: url(../Images/Nike-Air-Force-1-Low-Off-White-Product.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shoe12{
+    background-image: url(../Images/air-jordan-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shoe-details {
+    background-color: rgba(73, 70, 69, 0.26);
+    width: 88%;
+    position:absolute;
+    bottom: 0;
+    padding: 0em 1.5em;
+}
+
+.shoe-details:hover{
+    background-color: rgba(88, 88, 88, 0.527);
+    transition-duration: 0.7s;
+}
+
+.shoe-name{
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 0.5em;
+    color: black;
+}
+
+.shoe-price{
+    color: rgb(255, 238, 0);
+    font-weight: 700;
+    line-height: 0.5em;
+}
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+footer a.cgv{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+strong{
+    color: yellow;
+}
+
+
+.buy {
+    
+    text-decoration: none;
+    color:black;
+    font-size: 3em;
+    background-color: yellow;
+    display: flex;
+    height: 2em;
+    border-radius: 2em;
+    justify-content: center;
+    line-height: 2em;
+    width: 11em;
+}
+
+.enfin{
+    padding-left: 5em;
+}
+
+.image{
+    height: 98%;
+    width: 100%;
+}
